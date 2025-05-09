@@ -1,7 +1,7 @@
 @zamansheikh/percentage-bar
 A customizable, interactive percentage bar React component built with TypeScript and Tailwind CSS.
 Installation
-npm install @zamansheikh/percentage-bar lucide-react tailwind-merge react react-dom
+npm install @zamansheikh/percentage-bar lucide-react tailwind-merge clsx react react-dom
 
 Usage
 import { PercentageBar } from '@zamansheikh/percentage-bar';
@@ -28,7 +28,7 @@ Requirements
 React 17 or 18
 Tailwind CSS configured in your project
 lucide-react for icons
-tailwind-merge for class name utilities
+tailwind-merge and clsx for class name utilities
 
 Development
 
