@@ -1,0 +1,48 @@
+{
+  "name": "@zamansheikh/percentage-bar",
+  "version": "1.0.0",
+  "description": "A customizable, interactive percentage bar React component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "percentage-bar",
+    "interactive",
+    "component",
+    "typescript"
+  ],
+  "author": "Zaman Sheikh <zamansheikh@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zamansheikh/percentage-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zamansheikh/percentage-bar/issues"
+  },
+  "homepage": "https://github.com/zamansheikh/percentage-bar#readme",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.452.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.3.21",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
+  }
+}
